@@ -1,0 +1,40 @@
+{
+  "name": "student_book",
+  "version": "1.0.0",
+  "description": "Student Book Chatting",
+  "author": "ali",
+  "license": "ISC",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -L app.ts --delay 3"
+  },
+  "nodemonConfig": {
+    "ext": "ts",
+    "delay": "3",
+    "execMap": {
+      "ts": "ts-node"
+    }
+  },
+  "dependencies": {
+    "@types/express-session": "^1.17.4",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.3.3",
+    "swagger": "^0.7.5",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/express": "^4.17.13",
+    "@types/mysql": "^2.15.20",
+    "@types/node": "^17.0.14",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  }
+}
